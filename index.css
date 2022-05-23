@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 22, 22);
+    overflow-y: hidden;
+}
+
+#main {
+    background-color: rgb(236, 225, 225);
+    height: 310px;
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+#name {
+    position: absolute;
+    bottom: 75%;
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+    
+}
+#controls {
+    
+    position: absolute;
+    bottom: 15%;
+   
+}
+
+#btn {
+    background-color: rgb(255, 0, 43);
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+body {
+    background-image: url(/tic.png);
+}
+
+  
+  
+
+
+
+
+
